@@ -59,5 +59,19 @@ body {
 @media (width > 768px) {
   .father-con {
     display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+  .first {
+    max-width: 300px;
+    /* border-radius: 0; */
+  }
+  .second {
+    max-width: 300px;
+    border: none;
+  }
+  .third {
+    max-width: 300px;
+    /* border-bottom-left-radius: 0; */
   }
 }
